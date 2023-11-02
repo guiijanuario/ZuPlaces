@@ -5,6 +5,10 @@
 
 A ideia por trás da ZuPlaces é conectar as pessoas com os recursos essenciais para o seu dia a dia, independentemente de sua localização. O projeto visa orientar os usuários na busca por facilidades como por exemplo: acesso à internet, computadores, água potável, espaços para dança e energia para carregar dispositivos móveis. O produto surge para solucionar a seguinte questão: onde posso encontrar o que preciso, com base em onde estou ou pretendo estar?
 
+# Link do repositório original
+
+- [Zuplaces - GitHub Link](https://github.com/Catalisa-T5-Squad1/ZuPlaces)
+
 ### API REST
 
 Com essa API você consegue pegar a localização atual do usuário e calcular a distância dos espaços cadastrados, sendo assim, depois jogar no mapa do frontend.
