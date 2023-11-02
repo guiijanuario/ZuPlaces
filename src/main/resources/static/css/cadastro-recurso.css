@@ -1,0 +1,187 @@
+.divBusca {
+    display: flex;
+    flex-grow: 1;
+    max-width: 30%;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #f7f7f7;
+    border: solid 1px;
+    border-radius: 15px;
+    height: 30px;
+    border: none;
+    color: #0c3455;
+}
+
+header.nav>nav>.divCarrinho img {
+    width: 2.5rem;
+}
+
+#txtBusca {
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 100%;
+    border: none;
+    height: 100%;
+    width: 100%;
+    color: #0c3455;
+}
+
+
+a.btnMinhaConta {
+    font-size: 2rem;
+    border: none;
+    background-color: #143CDB;
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+
+}
+
+header.nav>nav>.divMinhaConta img {
+    width: 2.5rem;
+
+}
+
+.titulo {
+    /* border: solid 1px black; */
+    width: 100%;
+    margin-top: 1.5rem;
+    color: #0c3455;
+    text-align: center;
+}
+
+.cadastrando {
+    width: 100%;
+    height: auto;
+    padding: 0.2rem;
+    border: 2px rgb(10, 43, 10);
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #0c3455;
+}
+
+
+input::placeholder {
+    color: #0c3455;
+    font-weight: 800;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border: 1px solid #0c3455;
+    border-radius: 20px;
+    padding: 1.2rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+
+@media (max-width: 600px) {
+
+    #txtBusca,
+    .carrinho-conmpra,
+    .divBusca {
+        display: none;
+    }
+
+    .logo-header {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .cadastrando {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+
+        align-items: center;
+
+    }
+
+    .compactar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        height: 35px;
+        text-align: center;
+    }
+
+    .card-medio-longo {
+        width: 90%;
+        height: 35px;
+        text-align: center;
+    }
+
+    .card-medio {
+        width: 90%;
+        height: 35px;
+        text-align: center;
+
+    }
+
+    .card-longo {
+        width: 90%;
+        margin: 0;
+        height: 35px;
+        text-align: center;
+        margin: 5px;
+    }
+
+    .add {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+
+        height: 35px;
+        text-align: center;
+        margin: 10px 0;
+        padding: 0;
+
+    }
+
+    input::file-selector-button {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .descricao {
+        max-width: 90%;
+        min-width: 80%;
+        min-height: 30%;
+        max-height: 40%;
+        border: 1px solid;
+        margin-bottom: 30%;
+    }
+
+    .plano-de-fundo {
+        width: 90%;
+
+    }
+
+    .botao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botoes {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+}

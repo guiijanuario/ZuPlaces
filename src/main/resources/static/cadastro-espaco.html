@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ZuPlace</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/modalLogin.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <link rel="stylesheet" href="./css/cadastro-space.css">
+</head>
+
+<body>
+    <header class="nav">
+        <div class="logo-header">
+            <a href="./index.html"><img src="images/PLACE.png" alt="" class="logo"></a>
+        </div>
+
+        <div class="divBusca">
+            <input type="search" id="txtBusca" placeholder="Busque o recurso..." />
+            <a href="#"><img src="images/header-footer/lupa-.png" id="btnBusca" alt="Buscar" /></a>
+        </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="images/menu_white_36dp.svg" alt=""></button>
+        </div>
+
+        <nav>
+            <div class="divMinhaConta">
+                <a href="./login.html"><img src="images/header-footer/user-nav.png" id="btnMinhaConta"
+                        alt="minha-conta" /></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div class="titulo-cadastro">
+                <h1 class="titulo">CADASTRO DE ESPAÇO</h1>
+            </div>
+            <form class="dados-pessoais" id="spaceForm">
+                <div>
+                    <h3>Nome do Espaço:</h3>
+                </div>
+                <input type="text" id="nome" name="nome" placeholder="Nome do Espaço" required><br><br>
+
+                <div>
+                    <h3>Responsável pelo espaço:</h3>
+                </div>
+                <input type="text" id="searchUser" placeholder="Digite o nome do usuário">
+                <ul id="userSuggestions" class="suggestions"></ul>
+
+                <div>
+                    <h3>Recursos disponivel:</h3>
+                </div>
+                <input type="text" id="searchResource" placeholder="Digite o nome do recurso">
+                <ul id="resourceSuggestions" class="suggestions"></ul>
+
+                <div>
+                    <h3>Horário de funcionamento</h3>
+                </div>
+                <textarea id="horario_funcionamento" name="horario_funcionamento" rows="4" cols="50"
+                    placeholder="Segunda a sexta feira das 08:00 até as 22:00" required></textarea><br><br>
+
+                <div>
+                    <h3>Descrição do espaço e recurso:</h3>
+                </div>
+                <textarea id="descricao_espaco" name="descricao_espaco" rows="4" cols="50"
+                    placeholder="Vacina da gripe de forma gratuita" required></textarea><br><br>
+
+                <h3>Endereço:</h3>
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" placeholder="XX.XXX-XXX" required><br><br>
+
+                <label for="numero_endereco">Número do Endereço:</label>
+                <input type="text" id="numero_endereco" name="numero_endereco" placeholder="30" required><br><br>
+
+                <label for="complemento">Complemento:</label>
+                <input type="text" id="complemento" name="endereco_complemento" placeholder="Ponto de Referência"
+                    required><br><br>
+
+                <button class="buttons" type="submit">Cadastrar Space</button>
+            </form>
+            <div id="mensagem-sucesso" style="display: none; color: green; font-weight: bold;">
+                Espaço cadastrado com sucesso!
+            </div>
+
+    </main>
+    <footer>
+        <div class="div-footer">
+            <div class="div-institucional">
+                <section class="institucional">
+                    <h3>Institucional</h3>
+                    <div>
+                        <a href="www.zup.com.br">
+                            <h5>Empresa</h5>
+                        </a>
+                        <a href="#">
+                            <h5>Termos de uso</h5>
+                        </a>
+                        <a href="./cadastro-contato.html">
+                            <h5>Contato</h5>
+                        </a>
+                    </div>
+                </section>
+            </div>
+            <div class="div-atendimento">
+                <section class="atendimento">
+                    <h3>Atendimento</h3>
+                    <div class="up-div">
+                        <div class="contatos-footer">
+                            <img src="images/header-footer/telefone-icon.png" alt="">
+                            <a href="#">
+                                <h5>Telefone</h5>
+                            </a>
+                        </div>
+                        <div class="contatos-footer">
+                            <img src="images/header-footer/whatsapp-icon.png" alt="">
+                            <a href="#">
+                                <h5>Whatsapp</h5>
+                            </a>
+                        </div>
+                        <div class="contatos-footer">
+                            <img src="images/header-footer/email-icon.png" alt="">
+                            <a href="#">
+                                <h5>E-mail</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="down-div">
+                        <p>Nosso horário de atendimento é de segunda a sexta feira das 09:00 até às 17:00 e Sábado das
+                            08:00 até as 12:00.</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="div-rede-sociais">
+                <section class="rede-sociais">
+                    <h3>Rede Sociais</h3>
+                    <div class="up-div">
+                        <div class="redeSocial-footer">
+                            <img src="images/header-footer/facebook-icon-removebg-preview.png" alt="">
+                            <a href="#">
+                                <h5>Facebook</h5>
+                            </a>
+                        </div>
+                        <div class="redeSocial-footer">
+                            <img src="images/header-footer/instagram-icon-removebg-preview.png" alt="">
+                            <a href="#">
+                                <h5>Instagram</h5>
+                            </a>
+                        </div>
+                        <div class="redeSocial-footer">
+                            <img src="images/header-footer/linkedin-icon.png" alt="">
+                            <a href="#">
+                                <h5>Linkedin</h5>
+                            </a>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+        </div>
+    </footer>
+    <p class="copy">&copy; Copyright 2023, ZuPlace.</p>
+    <div id="modal-login" class="modal-container">
+        <div class="modal div-login">
+            <button class="fechar">&times;</button>
+            <form>
+
+                <div class="titulo-login">
+                    <h1> ACESSAR A CONTA</h1>
+                </div>
+                <div class="login-email-senha">
+                    <label for="email-cpf"></label>
+                    <input type="text" name="email-cpf" id="email-cpf" placeholder="E-mail ou CPF">
+
+                    <label for="senha"></label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                </div>
+                <div class="lembrar-senha">
+                    <input class="senha" type="checkbox" name="esquecer-a-senha">
+                    <label for="esquecer-a-senha">Lembrar senha</label>
+                </div>
+                <div class="botao-cadastro-e-login">
+                    <div class="botao-cadastro">
+                        <a href="./cadastro-user.html">Cadastrar</a>
+                    </div>
+                    <div class="botao-login">
+                        <button type="submit">Login</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+<script src="./javascript/map.js"></script>
+<script src="./javascript/ajax.js"></script>
+<script src="./javascript/modalLogin.js"></script>
+<script src="./javascript/cadastro-space.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,284 @@
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    
+  }
+
+  main > section {
+    display: flex;
+    gap: 1rem;
+    
+  }
+
+  main > section {
+    display: flex;
+  }
+
+  main > section > figure.banner-promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+  }
+
+  main > section > figure.banner-promo img {
+    width: 77.5rem;
+  }
+
+
+  main > section.filtro-fixo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 166vh;
+  }
+
+
+  ul li {
+    list-style: none;
+
+  }
+
+  main > div.menu {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem; 
+  }
+
+  main > div.menu > div.div-filtro-fixo a {
+    list-style: none;
+    font-size: 1.5rem;
+    text-shadow: 0rem .1rem 0rem .1rem gray;
+    color: orangered;
+    width: 20rem;
+    text-decoration: none;
+  }
+
+  
+
+  main > section.filtro-fixo > div.div-filtro-fixo a:hover {
+    color: orange;
+    transition: 0.4s;
+  }
+
+  ul li a {
+    list-style: none;
+    font-size: 1.5rem;
+    text-shadow: 0rem .1rem 0rem .1rem gray;
+    color: orangered;
+    width: 20rem;
+    text-decoration: none;
+  }
+
+  ul li a:hover {
+    color: orange;
+    transition: 0.4s;
+  }
+
+
+  section.listagem-produtos-home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5rem;
+    
+    
+    
+  }
+
+ div.div-listagem-produtos-home {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    /*border: 0.1rem solid rgba(128, 128, 128, 0.507);*/
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 40px #2426721C;
+    border-radius: 1.4px;
+    opacity: 1;
+  }
+
+  /*div.div-listagem-produtos-home:hover {
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem gray;  }
+*/
+
+
+  /*div.div-up-produtos-home {
+    border-bottom: 0.1rem solid rgba(128, 128, 128, 0.507);
+  }
+*/
+
+  div.titulo-produto {
+    display: flex;
+    flex-direction: column;
+    font-size:1.5rem;
+    margin: 0 auto;
+  }
+
+  div.titulo-produto h5 {
+   margin: 0 auto;
+  }
+
+  div.div-up-produtos-home img {
+    width: 100%;
+    height: 21rem;
+  }
+  
+  div.div-down-produtos-home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    width: 20rem;
+    padding: 1rem;
+  }
+
+  div.descricao-produto-home p {
+    margin-bottom: 2rem;
+    height: 8rem;
+  }
+
+  div.price-produto-listagem-produto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  div.de-por-price {
+    color:red;
+    text-decoration: line-through;
+  }
+
+
+  div.cta-produtos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+
+  button.add-carrinho {
+    background-color: orange;
+    border: none;
+    width: 9.3rem;
+    height: 2rem;
+  }
+
+  button.comprar-agora {
+    background-color: greenyellow;
+    border: none;
+    width: 9.3rem;
+    height: 2rem;
+  }
+
+  div.cta-produtos > button h5 {
+    margin: 0;
+  }
+
+  button.add-carrinho:hover {
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem gray;
+  }
+
+  button.comprar-agora:hover {
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem gray;
+  }
+
+ 
+  .pagina-empresa {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .texto-empresa {
+    text-justify: distribute;
+  }
+
+
+aside > input{border-radius: 10%;
+     width: 200px;
+    height: 50px;
+    text-align: center;}
+
+
+.categoria{
+    /*background-color:#08195C;*/
+    background-color: orange;
+    color:white;
+    padding-left: 20px;
+    border-radius: 0.5rem;
+}
+
+.card > img{
+    width: 200px;
+    display: inline-block;
+    margin: 20px;
+} 
+
+.card{
+  border: 0.1rem solid grey; 
+}
+div.card h3{
+  text-align: center;
+}
+
+.linha{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.linha .card img:hover{
+  width: 250px;
+}
+
+.carrinho{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: orange;
+  border: none;
+  width: 9.3rem;
+  height: 2rem;
+}
+
+.carrinho:hover{
+  background-color: darkorange;
+}
+
+
+.comprar{
+  background-color: greenyellow;
+  border: none;
+  width: 9.3rem;
+  height: 2rem;
+}
+
+.comprar:hover{
+  background-color: darkgreen;
+}
+
+
+.produtos {
+  display: flex;
+  flex-direction: column;
+}
+

@@ -1,0 +1,279 @@
+ .mainProduto{
+    margin-top: 35px;
+}
+
+#categoria{
+    color: orange;
+    margin-left: 10px;
+    padding: 0px;
+    width: 600PX;
+    text-align: left;
+    font-size: 26px;
+    /* border: solid 3px black; */
+    
+}
+
+#categoria p a{
+    text-decoration: none;
+    color: orange;
+}
+
+#categoria p{
+    margin: 5px 10px;
+    padding: 0px;
+}
+
+#descricaoMain{
+    /* box-shadow: 0rem 0rem .2rem .2rem gray; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: aliceblue; */
+}
+
+#descricaoProduto{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    box-shadow: 0rem 0rem .2rem .2rem gray;
+    background: rgb(249, 250, 246);
+    padding: 1rem;
+}
+
+
+#imagemproduto {
+    width: 50%;
+}
+
+
+#imagemproduto img{
+    width: 100%;
+}
+
+#nomeDoProduto{
+    /* border: solid 3px black; */
+    width: 85%;
+    padding-bottom: 0px;
+
+}
+
+#nomeDoProduto h1{
+    margin: 20px 10px ;
+    margin: 10px 0px;
+}
+
+#sku{
+    /* border: solid 3px black; */
+    border-top: none;
+    width: 20%;
+    /* margin-top: 10px; */
+    position: relative;
+    top: -0.2rem;
+}
+
+#sku p{
+    margin: 3px;
+
+}
+
+#preco{
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 10px;
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+#precopromocao{
+    text-decoration-line: line-through;
+}
+
+#preco div{
+    /* border: solid 3px black; */
+    padding: 0px 1rem;
+}
+
+#quantidade{
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+#quantidade input{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+#quantidade p{
+    font-size: 20px;
+}
+
+#quantidade div{
+    margin-top: 10px;
+    /* border: solid 3px black; */
+}
+
+#botoes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border:solid 1px black; */
+}
+
+#comprar{
+    background-color: greenyellow;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#comprar:hover{
+    background-color: gray;
+    transition: .5s;
+}
+
+#adicionarcarrinho{
+    background-color: orange;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#adicionarcarrinho:hover{
+    background-color: gray;
+    transition: .5s;
+}
+
+#desejos{
+    display: flex;
+
+}
+
+#desejos img{
+    width: 50px;
+    height: 50px;
+}
+
+#cep{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    gap: 5px;
+}
+
+#cep button{
+    width: 208px;
+}
+
+.cep{
+    text-align: center;
+    height: 25px;
+    width: 200px;
+}
+
+#compartilhe{
+    margin-top: 10px;
+    /* border: solid 1px black; */
+    width: 300px;
+}
+
+#compartilhe p{
+    font-size: 20px;
+    margin: 2px;
+    padding: 10px;
+}
+
+#compartilhe img{
+    width: 50px;
+}
+
+#descricao{
+    display: flex;
+    flex-direction: column;
+    /* border: solid 1px black; */
+    width:100%;
+    /* background-image: linear-gradient(to top, rgba(255,0,0,0), orange); */
+
+    /* border-top: solid 3px black; */
+}
+
+#descricao h3{
+    /* border-bottom: solid 3px black; */
+    font-size: 30px;
+    margin-left: 25px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0) 30%, orange 40%);
+    color: orange;
+}
+
+#descricao p{
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 25px;
+    width: 300px;
+}
+
+#avaliacao{
+    display: flex;
+    flex-direction: column;
+    /* border: solid 1px black; */
+    width:100;
+    /* border-top: solid 3px black; */
+    /* border-bottom: solid 3px black; */
+    /* background-image: linear-gradient(to bottom,rgba(255,0,0,0), orange); */
+
+}
+
+#avaliacao h3{
+    /* border-bottom: solid 3px black; */
+    font-size: 30px;
+    margin-left: 25px;
+    color: orange;
+    background-image: linear-gradient(to right, rgba(255,0,0,0) 30%, orange 40%);
+
+}
+
+#avaliacao p{
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 25px;
+    width: 300px;
+}
+
+#talvezinteresse{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+
+}
+
+#talvezinteresse img:hover{
+    width: 350px;
+}
+
+#talvezinteresse h3{
+    margin-bottom: 25px;
+}
+
+.descricaovalor{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+    font-size: 20px;
+}
+
+.precointeresse{
+    color: orangered;
+    font-size: 25px;
+}
+
+ 

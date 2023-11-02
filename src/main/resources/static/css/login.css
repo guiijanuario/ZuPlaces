@@ -1,0 +1,55 @@
+body * {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+header.nav > .divBusca {
+    display: flex;
+    flex-grow: 1;
+    max-width: 35rem;
+    align-items: center;
+    text-transform: uppercase;
+    background-color:#f7f7f7;
+    border:solid 1px;
+    border-radius: 15px;
+    height: 2.5rem;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 8rem;
+}
+
+.form label {
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.button-cad{
+  align-self: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+#cadastrar  {
+  background-color: #f7f7f7;
+  font-size: 1rem;
+  text-decoration: none;
+  border: none;
+  align-self: center;
+  color: black;
+  padding: 0.6rem;
+}
+
+#cadastrar:hover {
+  color: black;
+  font-weight: 500;
+  background-color: rgba(72, 102, 146, 0.404);
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
+
+

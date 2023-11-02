@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ZuPlace</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/modalLogin.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <link rel="stylesheet" href="./css/cadastro-user.css">
+</head>
+
+<body>
+    <header class="nav">
+        <div class="logo-header">
+            <a href="./index.html"><img src="images/PLACE.png" alt="" class="logo"></a>
+        </div>
+
+        <div class="divBusca">
+            <input type="search" id="txtBusca" placeholder="Busque o recurso..." />
+            <a href="#"><img src="images/header-footer/lupa-.png" id="btnBusca" alt="Buscar" /></a>
+        </div>
+
+        <nav>
+            <div class="divMinhaConta">
+                <a href="./login.html"><img src="images/header-footer/user-nav.png" id="btnMinhaConta"
+                        alt="minha-conta" /></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="div.cadastro">
+            <div class="titulo-cadastro titulo">
+                <h1>INDIQUE UM ESPAÇO</h1>
+            </div>
+            <div class="form">
+                <form id="contactForm">
+                    <div class="dados-pessoais">
+                        <div>
+                            <h3>Suas informações:</h3>
+                        </div> <br>
+                        <div>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Nome completo" required>
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="nome@email.com" required>
+                        </div>
+                        <div>
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="+55 (44) 9 9999-9999">
+                        </div>
+                    </div>
+                    <div class="dados-contatos">
+                        <div>
+                            <h3>Informações do espaço:</h3>
+                        </div> <br>
+
+                        <div>
+                            <label for="espaco_indicado">Nome do Espaço:</label>
+                            <input type="text" id="espaco_indicado" name="espaco_indicado" placeholder="Nome do Espaço">
+                        </div>
+                        <div>
+                            <label for="descricao">Descrição do recurso:</label>
+                            <textarea id="descricao" name="descricao" rows="4" cols="83" placeholder="Ex. Tem wifi disponivel todos os dias e 24 horas..."></textarea>
+                        </div>
+                    </div> <br>
+                    <button class="buttons" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="div-footer">
+            <div class="div-institucional">
+                <section class="institucional">
+                    <h3>Institucional</h3>
+                    <div>
+                        <a href="www.zup.com.br">
+                            <h5>Empresa</h5>
+                        </a>
+                        <a href="#">
+                            <h5>Termos de uso</h5>
+                        </a>
+                        <a href="./cadastro-contato.html">
+                            <h5>Contato</h5>
+                        </a>
+                    </div>
+                </section>
+            </div>
+            <div class="div-atendimento">
+                <section class="atendimento">
+                    <h3>Atendimento</h3>
+                    <div class="up-div">
+                        <div class="contatos-footer">
+                            <img src="images/header-footer/telefone-icon.png" alt="">
+                            <a href="#">
+                                <h5>Telefone</h5>
+                            </a>
+                        </div>
+                        <div class="contatos-footer">
+                            <img src="images/header-footer/whatsapp-icon.png" alt="">
+                            <a href="#">
+                                <h5>Whatsapp</h5>
+                            </a>
+                        </div>
+                        <div class="contatos-footer">
+                            <img src="images/header-footer/email-icon.png" alt="">
+                            <a href="#">
+                                <h5>E-mail</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="down-div">
+                        <p>Nosso horário de atendimento é de segunda a sexta-feira das 09:00 até às 17:00 e Sábado das
+                            08:00 até as 12:00.</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="div-rede-sociais">
+                <section class="rede-sociais">
+                    <h3>Rede Sociais</h3>
+                    <div class="up-div">
+                        <div class="redeSocial-footer">
+                            <img src="images/header-footer/facebook-icon-removebg-preview.png" alt="">
+                            <a href="#">
+                                <h5>Facebook</h5>
+                            </a>
+                        </div>
+                        <div class="redeSocial-footer">
+                            <img src="images/header-footer/instagram-icon-removebg-preview.png" alt="">
+                            <a href="#">
+                                <h5>Instagram</h5>
+                            </a>
+                        </div>
+                        <div class="redeSocial-footer">
+                            <img src="images/header-footer/linkedin-icon.png" alt="">
+                            <a href="#">
+                                <h5>Linkedin</h5>
+                            </a>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </footer>
+    <p class="copy">&copy; Copyright 2023, ZuPlace.</p>
+</body>
+
+</html>
+<script src="./javascript/cadastro-contato.js"></script>
+</body>
+
+</html>

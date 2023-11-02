@@ -1,0 +1,49 @@
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+button.redirect-button {
+    padding: 3.5rem;
+    color: white;
+
+}
+
+#color1 {
+    background-color: #0c3455;
+}
+
+#color2 {
+    background-color: #0e1a33;
+}
+
+
+#color3 {
+    background-color: #ef4123;
+}
+
+#color4 {
+    background-color: #f7941e;
+}
+
+#color1:hover {
+    background-color: #0c3455;
+    opacity: 0.8;
+}
+
+#color2:hover {
+    background-color: #0e1a33;
+    opacity: 0.8;
+}
+
+#color3:hover {
+    background-color: #ef4123;
+    opacity: 0.8;
+}
+
+#color4:hover {
+    background-color: #f7951e;
+    opacity: 0.8;
+}

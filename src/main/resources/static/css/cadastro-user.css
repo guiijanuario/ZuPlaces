@@ -1,0 +1,486 @@
+* {
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.cadastro-produtos {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    background: rgb(249, 250, 246);
+    margin: 0 auto;
+}
+
+
+.section {
+    width: 95%;
+    height: auto;
+    box-shadow: 0px 20px 40px #2426721C;
+    margin: 10px auto;
+}
+
+
+
+.nav {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.carrinho-conmpra {
+    display: flex;
+}
+
+
+.divBusca {
+    display: flex;
+    flex-grow: 1;
+    max-width: 30%;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #f7f7f7;
+    border: solid 1px;
+    border-radius: 15px;
+    height: 30px;
+    border: none;
+    color: #0c3455
+
+}
+
+header.nav>nav>.divCarrinho img {
+    width: 2.5rem;
+
+}
+
+#txtBusca {
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 100%;
+    border: none;
+    height: 100%;
+    width: 100%;
+    color: #0c3455
+}
+
+
+a.btnMinhaConta {
+    font-size: 2rem;
+    border: none;
+    background-color: #143CDB;
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+
+}
+
+header.nav>nav>.divMinhaConta img {
+    width: 2.5rem;
+
+}
+
+/* início do fomulário de cadastro*/
+/*================================*/
+.titulo {
+    /* border: solid 1px black; */
+    width: 100%;
+    margin-top: 3rem;
+    color: #0c3455;
+    text-align: center;
+}
+
+.cadastrando {
+    width: 100%;
+    height: auto;
+    padding: 0.2rem;
+    border: 2px rgb(10, 43, 10);
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #0c3455;
+}
+
+
+
+
+input::placeholder {
+    color: #0c3455;
+    font-weight: 900;
+}
+
+input::file-selector-button {
+
+    border: 0;
+    border-radius: 30px;
+    margin: 10px;
+    color: #0c3455;
+    font-weight: 900;
+
+
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border: 1px solid #0c3455;
+    border-radius: 20px;
+    outline: none;
+
+}
+
+
+
+
+
+.compactar {
+    width: 27%;
+    display: flex;
+    color: #0c3455;
+}
+
+.card {
+    width: 30%;
+    height: 1.6rem;
+    border: 2px rgb(10, 43, 10);
+    border-radius: 5px;
+    padding: 0.3rem;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 20px 40px #2426721C;
+    color: #0c3455;
+}
+
+.card-medio-longo {
+    width: 60%;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 20px 40px #2426721C;
+    color: #0c3455;
+
+}
+
+.card-medio {
+    width: 25%;
+    height: 1.6rem;
+    padding: 0.3rem;
+    border: 2px rgb(10, 43, 10);
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 20px 40px #2426721C;
+    color: #0c3455;
+}
+
+.card-longo {
+    width: 30%;
+    height: 1.6rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+    margin: 0 9% 0 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 20px 40px #2426721C;
+    color: #0c3455;
+    border: none;
+}
+
+
+.card-intermediario {
+    width: 14%;
+    height: 40px;
+
+    border-radius: 5px;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 20px 40px #2426721C;
+    color: #0c3455;
+}
+
+.card-arquivo {
+    width: 14%;
+    height: 40px;
+    border: 2px rgb(10, 43, 10);
+    border-radius: 5px;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 20px 40px #2426721C;
+    color: #0c3455;
+}
+
+.add {
+    width: 100%;
+    height: 28px;
+    border: 2px rgb(10, 43, 10);
+    border-radius: 25px;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    color: #0c3455;
+    padding-left: 30%;
+}
+
+
+
+.descricao {
+    width: 50%;
+    max-width: 60%;
+    min-width: 45%;
+    max-height: 45%;
+    min-height: 35%;
+    margin-top: 10px;
+    padding-left: 20PX;
+    padding-right: 20PX;
+    padding-top: 10PX;
+    box-shadow: 0px 20px 40px #2426721C;
+    border-style: none;
+    color: #0c3455;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    margin-top: 180px;
+    background: rgb(250, 249, 248, 0.8);
+
+
+
+
+}
+
+.plano-de-fundo {
+    margin-top: 100px;
+}
+
+
+
+.status {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    color: #0c3455;
+
+
+
+}
+
+.no-momento {
+    width: 59%;
+    height: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #0c3455;
+}
+
+.atividade {
+    width: 40%;
+    height: 30px;
+    border: 2px rgb(10, 43, 10);
+    border-radius: 25px;
+    margin: 20px 3px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 20px 40px #2426721C;
+    color: #0c3455;
+}
+
+.botao {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+
+    color: #0c3455;
+    margin: 40px 0px;
+    margin-bottom: 100px;
+
+}
+
+.botoes {
+    width: 25%;
+    height: 35px;
+    border: 2px rgb(10, 43, 10);
+    border-radius: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 20px 40px #2426721C;
+    color: #0c3455;
+    background: rgb(234, 192, 172, 0.4);
+
+}
+
+.botoes:hover {
+    background: rgb(234, 192, 172, 0.8);
+    transition: 0.4s;
+}
+
+.botoes:active {
+    background: #0c3455;
+    transition: 0.3s;
+    color: white;
+}
+
+.rodape {
+    width: 95%;
+    height: 300px;
+    border: 2px rgb(10, 43, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 3px;
+    box-shadow: 0px 20px 40px #2426721C;
+    color: #0c3455;
+}
+
+@media (max-width: 600px) {
+
+    #txtBusca,
+    .carrinho-conmpra,
+    .divBusca {
+        display: none;
+    }
+
+    .logo-header {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+
+
+    .cadastrando {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+
+        align-items: center;
+
+    }
+
+    .compactar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        height: 35px;
+        text-align: center;
+    }
+
+    .card-medio-longo {
+        width: 90%;
+        height: 35px;
+        text-align: center;
+    }
+
+    .card-medio {
+        width: 90%;
+        height: 35px;
+        text-align: center;
+
+    }
+
+    .card-longo {
+        width: 90%;
+        margin: 0;
+        height: 35px;
+        text-align: center;
+        margin: 5px;
+    }
+
+    .add {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+
+        height: 35px;
+        text-align: center;
+        margin: 10px 0;
+        padding: 0;
+
+    }
+
+    input::file-selector-button {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+    .descricao {
+        max-width: 90%;
+        min-width: 80%;
+        min-height: 30%;
+        max-height: 40%;
+        border: 1px solid;
+        margin-bottom: 30%;
+    }
+
+    .plano-de-fundo {
+        width: 90%;
+
+    }
+
+    .botao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botoes {
+        width: 100%;
+    }
+
+    .botoes:hover {
+        background: rgb(234, 192, 172, 0.8);
+        transition: 0.4s;
+    }
+
+    .botoes:active {
+        background: #0c3455;
+        transition: 0.3s;
+        color: white;
+    }
+
+
+
+
+
+
+}

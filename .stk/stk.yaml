@@ -1,0 +1,24 @@
+schema-version: v2
+kind: manifest
+spec:
+  type: app
+  plugins:
+    - name: catalisa-t5-squad1/java-spring-boot-zuplacesapi@0.0.1
+      alias: java-spring-boot-zuplacesapi-1696102488500
+      type: app
+      inputs:
+        project_version: 0.0.1-SNAPSHOT
+      inputs-envs: {}
+      connections:
+        generates: []
+        requires: []
+      links:
+        generates: []
+  global-inputs:
+    project_name: ZuPlaceApi
+    project_artifact_id: ZuPlaceApi
+    project_group_id: br.com.catalisa
+    project_task: ZuPlaces API
+  global-computed-inputs:
+    base_package: br.com.catalisa.ZuPlaceApi
+    package_dir: br/com/catalisa/ZuPlaceApi

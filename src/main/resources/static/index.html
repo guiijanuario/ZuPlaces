@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ZuPlace</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlf_lqH3R8cR_4AWVnKpsNjGGk-ZSzAPA&callback=initMap&libraries=&v=weekly" defer></script>
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/modalLogin.css">
+    <link rel="stylesheet" href="./css/slider.css">
+
+</head>
+
+<body>
+    <!-- <header class="aviso-header">
+      <h5 class="frase-motion"> Busque serviços gratuitos </h5>
+  </header> -->
+
+    <header class="nav">
+        <div class="logo-header">
+            <a href="./index.html"><img src="images/PLACE_.png" alt="" class="logo"></a>
+        </div>
+
+        <div class="divBusca">
+            <input type="search" id="txtBusca" placeholder="Busque o recurso..." />
+            <a href="#"><img src="images/header-footer/lupa-.png" id="btnBusca" alt="Buscar" /></a>
+        </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="images/menu_white_36dp.svg" alt=""></button>
+        </div>
+
+        <nav>
+            <div class="divMinhaConta">
+                <a href="./login.html"><img src="images/header-footer/user-nav.png" id="btnMinhaConta"
+                        alt="minha-conta" /></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="map-container">
+                <div id="gmp-map" style="width: 1800px; height: 700px;"></div>
+                <div class="div-legenda-slider">
+                    <div class="legenda">
+                        <div class="legenda-icon">
+                            <div><img src="./images/icon/icon-user.png" height="30px" alt="icon na cor verde que é a localização do usuário"></div>
+                            <div><p>Posição do usuário</p></div>
+                        </div>
+                        <div class="legenda-icon">
+                            <div><img src="./images/icon/icon-space.png" height="30px" alt="icon na cor laranja que é a localização do espaço"></div>
+                            <div><p>Posição do espaço</p></div>
+                        </div>
+                    </div>
+                    <div id="distance-slider-container">
+                        <label for="slides-distance">Busque pela distância: </label>
+                        <input type="range" id="distance-slider" min="15000" max="100000" step="1000" value="15000"
+                            oninput="updateDistance()">
+                        <output for="distance-slider" id="distance-output">15 km</output>
+                    </div>
+
+                </div>
+               
+        </section>
+
+        <div class="list-space" aria-label="Lista de Espaços">
+            <h4>Lista de Espaços</h4>
+            <ul id="space-list" role="list">
+                <li class="space-item" role="listitem">
+                    <h2 class="space-title">Nome do Espaço</h2>
+                    <div class="space-details">
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+    <footer>
+        <div class="div-footer">
+            <div class="div-institucional">
+                <section class="institucional">
+                    <h3>Institucional</h3>
+                    <div>
+                        <a href="www.zup.com.br">
+                            <h5>Empresa</h5>
+                        </a>
+                        <a href="#">
+                            <h5>Termos de uso</h5>
+                        </a>
+                        <a href="./cadastro-contato.html">
+                            <h5>Contato</h5>
+                        </a>
+                    </div>
+                </section>
+            </div>
+            <div class="div-atendimento">
+                <section class="atendimento">
+                    <h3>Atendimento</h3>
+                    <div class="up-div">
+                        <div class="contatos-footer">
+                            <img src="images/header-footer/telefone-icon.png" alt="">
+                            <a href="#">
+                                <h5>Telefone</h5>
+                            </a>
+                        </div>
+                        <div class="contatos-footer">
+                            <img src="images/header-footer/whatsapp-icon.png" alt="">
+                            <a href="#">
+                                <h5>Whatsapp</h5>
+                            </a>
+                        </div>
+                        <div class="contatos-footer">
+                            <img src="images/header-footer/email-icon.png" alt="">
+                            <a href="#">
+                                <h5>E-mail</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="down-div">
+                        <p>Nosso horário de atendimento é de segunda a sexta feira das 09:00 até às 17:00 e Sábado das
+                            08:00 até as 12:00.</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="div-rede-sociais">
+                <section class="rede-sociais">
+                    <h3>Rede Sociais</h3>
+                    <div class="up-div">
+                        <div class="redeSocial-footer">
+                            <img src="images/header-footer/facebook-icon-removebg-preview.png" alt="">
+                            <a href="#">
+                                <h5>Facebook</h5>
+                            </a>
+                        </div>
+                        <div class="redeSocial-footer">
+                            <img src="images/header-footer/instagram-icon-removebg-preview.png" alt="">
+                            <a href="#">
+                                <h5>Instagram</h5>
+                            </a>
+                        </div>
+                        <div class="redeSocial-footer">
+                            <img src="images/header-footer/linkedin-icon.png" alt="">
+                            <a href="#">
+                                <h5>Linkedin</h5>
+                            </a>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </footer>
+    <p class="copy">&copy; Copyright 2023, ZuPlace.</p>
+</body>
+
+</html>
+<script src="./javascript/map.js"></script>
+<script src="./javascript/ajax.js"></script>
+</body>
+
+</html>

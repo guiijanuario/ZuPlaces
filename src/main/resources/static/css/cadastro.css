@@ -1,0 +1,220 @@
+
+
+main > div {
+    display: flex;
+    
+    flex-direction: column;
+    /* margin-top: 5rem;
+    margin-bottom: 5rem; */
+    padding: 2.5rem 9rem;
+    width: 100%;
+    align-items: center;
+    /*box-shadow: .1rem .1rem .6rem .1rem gray;*/
+    border-radius: 90px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    /*box-shadow: 0px 1.3rem 2.5rem rgba(0, 0, 0, 0.3);*/
+    border-radius: 3rem;
+
+}
+
+
+
+main > div > div.titulo-cadastro {
+    align-self: center;
+    margin-bottom: 3rem;
+    
+}
+
+h3 {
+    margin-top: 0.2rem;
+}
+
+div.form form{
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+}
+
+div.form > form div {
+    display: flex;
+    flex-direction: co;
+}
+
+
+
+main > div > div.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.dados-pessoais {
+    flex-direction: column;
+}
+
+.dados-contatos {
+    flex-direction: column;
+}
+
+.dados-endereco {
+    flex-direction: column;
+    width: 100%;
+}
+
+.dados-rua {
+    flex-direction: column;
+}
+
+.criar-login{
+    flex-direction: column;
+}
+
+div.alerta-erros-validacao {
+    display: flex;
+    font-size: 12px;
+    color: red;
+    width: 100%;
+    align-items: flex-end;
+   }
+   
+   
+   .invisible {
+     display: none !important;
+   }
+
+
+input#cep{
+    width: 35%;
+}
+
+input#rua,
+div.err-rua{
+    width: 70%;
+}
+
+div.err-numero {
+    margin-left: 58%;
+}
+
+input#numero{
+    width: 10%;
+}
+
+input#bairro{
+    width: 35%;
+}
+
+input#nome,
+div.err-nome{
+    width: 70%;
+}
+
+input#cpf,
+div.err-cpf {
+    width: 35%;
+}
+
+input#data-nascimento,
+div.err-data-nascimento {
+    width: 30%;
+}
+
+div.err-email {
+    width: 50%;
+}
+
+div.err-senha {
+    width: 50%;
+}
+
+input#complemento{
+    width: 40%;
+}
+
+input#bairro{
+    width: 50%;
+}
+
+input#cidade{
+    width: 50%;
+}
+
+input#estado{
+    width: 10%;
+}
+
+
+
+select#estados {
+    background-color:transparent;
+    align-self: center;
+    margin-bottom: 1.4rem;
+    padding: 0.5rem;
+    font-style:italic;
+    margin-right: 0.5rem;
+    font-size:18px;
+    border: 1px solid gray;  
+    border-radius: 0.6rem;     
+    height:2.5rem;
+    
+}
+main > div > div.form input {
+        background-color:transparent;
+        align-self: center;
+        margin-bottom: 1.5rem;
+        padding: 0.5rem;
+        font-style:italic;
+        margin-right: 0.5rem;
+        border: 1px solid gray;  
+        border-radius: 0.6rem;     
+        height:2.5rem;
+        width:100%;
+    }
+
+    main > div > form > input{
+        background-color:transparent;
+        align-self: center;
+        margin-bottom: 1.5rem;
+        padding: 0.5rem;
+        font-style:italic;
+        margin-right: 0.5rem;
+        border: 1px solid gray;  
+        border-radius: 0.6rem;     
+        height:2.5rem;
+        width:100%;
+    }
+
+
+
+        div.termos{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+            gap: .5rem;
+            margin-left: .6rem;
+            margin-bottom: 1rem;
+            
+        }
+      
+        #entrar-login{
+            background-color: #f7f7f7;
+            font-size: 1rem;
+            border: none;
+            align-self: center;
+            color: black;
+            padding: 0.6rem;
+            cursor: pointer;
+        }
+
+        
+ 
+  #entrar-login:hover{
+color: black;
+  font-weight: 500;
+  background-color: rgba(72, 102, 146, 0.404);
+  opacity: 0.7;
+  cursor: pointer;
+}
+        #output {
+            font-weight: bold;
+        }

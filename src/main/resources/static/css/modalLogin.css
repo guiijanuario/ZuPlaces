@@ -1,0 +1,194 @@
+a.btnMinhaConta {
+    font-size: 2rem;
+    border: none;
+    background-color: #143CDB;
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+    
+  }
+
+  header.nav > nav > .divMinhaConta img {  
+    width: 2.5rem;
+
+}
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    
+  }
+
+
+div.container-login {
+
+    display: flex;
+    justify-content: center;
+}
+
+div.div-login, .modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 30%;
+    height: 50%;
+    /*box-shadow: .1rem .1rem .6rem .1rem gray;*/
+    border-radius: 2rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1.3rem 2.5rem #2426721C;
+    opacity: 1;
+}
+
+div.div-login h1{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+div.div-login > form > div.login-email-senha input {  
+  background-color:transparent;
+  align-self: center;
+  margin-bottom: 1rem;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border: 1px solid gray;  
+  border-radius: 1rem;     
+  height:2.5rem;
+  width:100%;
+}
+
+div.login-email-senha {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+div.lembrar-senha {
+    margin-left: 0.5rem;
+}
+
+span{
+    left: 280px;
+}
+
+div.botao-cadastro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+
+div.botao-cadastro a{
+    background-color: rgb(243, 233, 233);
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.3rem;
+    border: none;
+    align-self: center;
+    color: black;
+    border-radius: 100px;
+    width: 6rem;
+    height: 100%;
+}
+
+
+div.botao-cadastro-e-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+div.botao-login{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+div.botao-login button {
+  background-color: rgb(243, 233, 233);
+  font-size: 1.2rem;
+  border: none;
+  align-self: center;
+  color: black;
+  border-radius: 100px;
+  width: 6rem;
+  height: 100%;
+}
+
+div.botao-login button:hover{
+   color: black;
+   font-weight: 500;
+   background-color: rgba(72, 102, 146, 0.404);
+   opacity: 0.7;
+   border-radius: 100px;
+   cursor: pointer;
+}
+
+div.botao-cadastro button:hover{
+    color: black;
+    font-weight: 500;
+    background-color: rgba(72, 102, 146, 0.404);
+    opacity: 0.7;
+    border-radius: 100px;
+    cursor: pointer;
+ }
+
+   /*modal */
+
+   .modal-container.mostrar {
+    display: flex;
+   }
+
+   .modal-container {
+    display: none; /* Remova o display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0rem;
+    left: 0rem;
+    z-index: 2001; /* Aumente o z-index para ficar acima de outros elementos */
+}
+   button.fechar {
+    position: absolute;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    top:-0.9rem;
+    right: -1.1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+   }
+
+   .mostrar .modal-container {
+    display: flex;
+}
+
+   .mostrar .modal {
+    animation: modal 0.3s;
+}
+
+
+   @keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+   }
+
